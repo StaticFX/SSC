@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "ssc",
+  "version": "${version}",
+  "name": "SexaStasiClient",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [ "de.sexa.ssc.Main" ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ]
+}
